@@ -12,3 +12,18 @@ canvas {
 video {
   z-index: 1;
 }
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  width: 50%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #1b6b93;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.9;
+  transition: opacity ease 0.5s;
+}
