@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { setDominantEmotion } from "../features/changeMoodSlice";
 import * as faceapi from "face-api.js";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const FaceDetectionComponent = () => {
   const dispatch = useDispatch();
@@ -101,6 +102,8 @@ const FaceDetectionComponent = () => {
       dispatch(setDominantEmotion(lastDetectedEmotion));
       stopVideo();
       navigate("/mood");
+    } else {
+      toast.error("Couldn't detect any emotion, please adjust your lighting and make sure your camera has a clear view of you!");
     }
   };
 
