@@ -1,8 +1,6 @@
-# React + Vite
+# Simulation of retrieving the dominant emotion through facial recognition system and image analysis, and rehabilitating it with music.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application utilizes the face-api.js library, which is built on top of tensorflow, interactively. It uses React & Redux Toolkit to process the input image and extract the dominant emotional expression from the user. The goal is to retrieve the user's dominant emotional state and nourish it with the spiritual sustenance obtained from a remote server, using the popular music streaming platform, Spotify, for rehabilitation.
 
-Currently, two official plugins are available:
+The reasons for building this application do not include its use by end-users; I emphasize that. It has been published to demonstrate the technologies I can utilize and to showcase my ability to process and compile information gathered from various documentation into a meaningful output sequence, even though it may not be advanced.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
