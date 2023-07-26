@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FaceDetectionComponent from "./components/FaceDetectionComponent";
+import FaceDetectionComponent from "./pages/FaceDetectionComponent";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import ChangeMood from "./components/ChangeMood";
+import ChangeMood from "./pages/ChangeMood";
 
 function App() {
   return (

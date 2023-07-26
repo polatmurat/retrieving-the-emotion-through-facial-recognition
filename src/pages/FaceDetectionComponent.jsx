@@ -103,7 +103,9 @@ const FaceDetectionComponent = () => {
       stopVideo();
       navigate("/mood");
     } else {
-      toast.error("Couldn't detect any emotion, please adjust your lighting and make sure your camera has a clear view of you!");
+      toast.error(
+        "Couldn't detect any emotion, please adjust your lighting and make sure your camera has a clear view of you!"
+      );
     }
   };
 
